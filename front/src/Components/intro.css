@@ -1,0 +1,48 @@
+.intro {
+  background: url('../Images/plant-right.jpg');
+  height: 100vh;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+  width: 550px;
+}
+
+#hello {
+  font-family: 'Open Sans', Sans-Serif;
+  font-size: 30px;
+  color: #726E5F;
+}
+
+#carolyn {
+  font-family: 'Work Sans', Sans-Serif;
+  font-size: 70px;
+  font-weight: 700;
+  color: rgb(180,105,82);
+}
+
+#developer {
+  font-family: 'Open Sans', Sans-Serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(180,105,82);
+}
+
+#intro-p {
+  font-family: 'Open Sans', Sans-Serif;
+  font-size: 30px;
+  color: #726E5F;
+}
+
+.fa-angle-double-down {
+  font-size: 50px;
+  align-self: center;
+  margin: 50px;
+  color: #726E5F;
+  cursor: pointer;
+}

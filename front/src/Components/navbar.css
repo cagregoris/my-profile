@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+}
+
+.logo {
+  padding: 25px;
+  Font-Family: 'Work Sans', Sans-Serif;
+  Font-Size: 45px;
+  font-weight: 600;
+  color: rgb(37,45,38)
+}
+
+.logo:hover {
+  color: rgb(180,105,82);
+  cursor: pointer;
+}
+
+.navLinks {
+  width: 500px;
+  color: #726E5F;
+}
+
+.navLinks li:hover {
+  color: rgb(180,105,82);
+  cursor: pointer;
+}
+
+.navLinks ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  Font-Family: 'Open Sans', Sans-Serif;
+  Font-Size: 17px;
+}
