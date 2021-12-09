@@ -10,19 +10,19 @@ function Projects() {
 
       <div className="projects-header">
         <div className="projects-title">
-          <span>My Projects</span>
+          <span>Projects</span>
         </div>
         <div className="projects-subtitle">
-          <span>Some stuff that I've built..</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span> Some stuff that I've built..</span>
         </div>
       </div>
 
       <div className="projects-containter">
         <div className="container-img">
-          <a>project iamge here</a>
+          <a>project image here</a>
         </div>
         <div className="container-text">
-          <h4>PROJECT 1</h4>
+          <h3>PROJECT 1</h3>
           <p>Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project</p>
           <div className="container-icons-mini">
             <div className="box-icon">

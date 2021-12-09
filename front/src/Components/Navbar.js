@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div className="nav">
       <div className="logo">
-        <a>CG.</a>
+        <Link to="/" spy={true} smooth={true}><a>CG.</a></Link>
       </div>
       <div className="navLinks">
         <ul>
@@ -22,7 +22,7 @@ function Navbar() {
           <Link to="projects" spy={true} smooth={true}><a>Projects</a></Link>
           </li>
           <li>
-            <a>Contact</a>
+          <Link to="contact" spy={true} smooth={true}><a>Contact</a></Link>
           </li>
         </ul>
       </div>

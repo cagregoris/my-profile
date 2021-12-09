@@ -1,9 +1,10 @@
 .projects {
   background-color: #E1B4E5;
-  padding: 50px;
-  height: 120vh;
+  padding: 14%;
+  padding-top: 5%;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .angle-4 {
@@ -20,17 +21,59 @@
 
 .projects-header {
   z-index: 2;
+  
 }
 
 .projects-containter {
   z-index: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .projects-title {
   font-size: 70px;
+  color: rgb(246,230,224);
+  padding-bottom: 10px;
 }
 
 .projects-subtitle {
   font-size: 30px;
+  color: rgb(28,34,115);
 }
 
+.container-img {
+  display: block;
+  height: 300px;
+  width: 900px;
+  border: solid black;
+  margin: 50px;
+}
+
+.container-text {
+  font-size: 20px;
+}
+
+.container-text h3{
+  color: rgb(240,83,94);
+}
+
+.container-icons-mini {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.box-icon {
+  margin-right: 20px;
+  padding: 5px;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+}
+
+.container-projects-btns a{
+  margin-right: 10px;
+  padding: 10px 15px;
+  background-color: rgb(161,234,205);
+}
