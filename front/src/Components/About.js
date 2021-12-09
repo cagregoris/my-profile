@@ -1,5 +1,5 @@
 import React from 'react'
-import picture from '../Images/profile.jpg'
+import picture from '../Images/profile.png'
 import flower from '../Images/aboutFlower.svg'
 import flower2 from '../Images/aboutFlower2.svg'
 
@@ -7,7 +7,7 @@ import './about.css'
 
 function About() {
   return (
-    <div className="about" id="about">
+    <section className="about" id="about">
 
       <img className="flower" src={flower} />
       <img className="flower-2" src={flower2} />
@@ -17,8 +17,10 @@ function About() {
       </div>
 
       <div className="row">
+        <div className="about-pic-pic">
         <div className="about-pic">
           <img id="image" src={picture}/>
+        </div>
         </div>
 
         <div className="about-text">
@@ -31,7 +33,7 @@ function About() {
           </div>
           <br></br>
           <div>
-          <span>I am happiest when I am using my passions to help others pursue theirs, and  <span className="orange">I can't wait to work alonside other amazing programmers and learn so much more!</span></span>
+          <span>I am happiest when I am using my passion to help others pursue theirs, and  <span className="orange">I can't wait to work alonside other amazing programmers and learn so much more!</span></span>
           </div>
           <br></br>
           <div>
@@ -42,7 +44,7 @@ function About() {
 
       
       
-    </div>
+    </section>
   )
 }
 

@@ -4,6 +4,8 @@ import './intro.css'
 
 import resume from '../documents/Resume.pdf'
 
+import {Link} from 'react-scroll';
+
 function Intro() {
   return (
     <div className="intro">
@@ -15,7 +17,7 @@ function Intro() {
         <span id="intro-p">A <span id="developer">full-stack web developer</span> using my passion to build creative and intuitive digital products.</span>
 
         <div className="socialsResume">
-        <a href={resume} alt="Carolyn Gregoris Resumé" target="_blank" className="resumeLink">Resumé</a>
+          <a href={resume} alt="Carolyn Gregoris Resumé" target="_blank" className="resumeLink">Resumé</a>
         <ul className="socialsList">
           <li>
             <a href="https://github.com/cascobie" target="_blank"><i class="fab fa-github"></i></a>
@@ -25,9 +27,9 @@ function Intro() {
           </li>
         </ul>
       </div>
-
-        <i class="fas fa-angle-double-down"></i>
+        <Link to="about" spy={true} smooth={true}><i class="fas fa-angle-double-down"></i></Link>
       </div>
+      <div className="angle-1"><span>ANGLE</span></div>
     </div>
   )
 }

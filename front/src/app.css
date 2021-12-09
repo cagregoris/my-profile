@@ -1,19 +1,10 @@
 html {
-  margin: 0%;
-  width: 100vw;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  display: block;
 }
 
-body {
-  margin: 0%;
-  width: 100vw;
-}
-
-#root {
-  margin: 0%;
-  width: 100vw;
-}
-
-.app {
-  margin: 0%;
-  width: 100vw;
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }

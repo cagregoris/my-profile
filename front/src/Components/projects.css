@@ -1,0 +1,36 @@
+.projects {
+  background-color: #E1B4E5;
+  padding: 50px;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.angle-4 {
+  height: 170px;
+  background-color: #E1B4E5;
+  color: #E1B4E5;
+  position: absolute;
+  bottom: -245%;
+  left: -20%;
+  width: 130%;
+  transform: rotate(-3deg);
+  z-index: 0;
+}
+
+.projects-header {
+  z-index: 2;
+}
+
+.projects-containter {
+  z-index: 2;
+}
+
+.projects-title {
+  font-size: 70px;
+}
+
+.projects-subtitle {
+  font-size: 30px;
+}
+

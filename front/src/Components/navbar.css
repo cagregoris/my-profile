@@ -3,9 +3,9 @@
   flex-direction: row;
   align-items: center;
   position: fixed;
-  background-color: rgba(238,234,231, 0.7);
+  background-color: rgba(58,95,237, 0.8);
   width: 100%;
-  z-index: 2;
+  z-index: 3;
 }
 
 .logo {
@@ -13,21 +13,21 @@
   Font-Family: 'Work Sans', Sans-Serif;
   Font-Size: 45px;
   font-weight: 600;
-  color: #46443e;
+  color: #FFFFFF;
 }
 
 .logo:hover {
-  color: rgb(180,105,82);
+  color: #EEB4AA;
   cursor: pointer;
 }
 
 .navLinks {
   width: 500px;
-  color: #726E5F;
+  color: #FFFFFF;
 }
 
 .navLinks li:hover {
-  color: rgb(180,105,82);
+  color: #EEB4AA;
   cursor: pointer;
 }
 

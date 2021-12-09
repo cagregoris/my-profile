@@ -1,8 +1,100 @@
 .skills {
   background: url('../Images/left-cropped.png');
-  background-color: rgb(231,231,227);
+  background-color: rgb(238,180,170);
   background-repeat: no-repeat;
   background-position: bottom left;
-  height: 110vh;
-  background-size: 15%;
+  height: 115vh;
+  background-size: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 300px;
+}
+
+.section-header {
+  font-family: 'Work Sans', Sans-Serif;
+  font-size: 70px;
+  font-weight: 700;
+  color: rgb(28,34,115);
+  padding-top: 150px;
+  z-index: 2;
+}
+
+.skills-container {
+  list-style: none;
+  width: 700px;
+}
+
+.skills-container ul{
+  list-style: none;
+  font-size: 70px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  color: #FFFFFF;
+}
+
+.skills-container ul p{
+  font-size: 15px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.skills-container ul li{
+  padding: 20px;
+}
+
+.fa-html5 {
+  color: #FFFFFF;
+}
+
+.fa-css3 {
+  color: #FFFFFF;
+}
+
+.fa-sass {
+  color: #FFFFFF;
+}
+
+.fa-js-square {
+  color: #FFFFFF;
+}
+
+.fa-react {
+  color: #FFFFFF;
+}
+
+.fa-wordpress-simple {
+  color: #FFFFFF;
+}
+
+.fa-php {
+  color: #FFFFFF;
+}
+
+.angle-2 {
+  height: 180px;
+  background-color: rgb(238,180,170);
+  color: rgb(238,180,170);
+  position: absolute;
+  bottom: -128%;
+  width: 70%;
+  right: -10%;
+  transform: rotate(-5deg);
+  display: block;
+  z-index: 0;
+}
+
+.angle-3 {
+  height: 150px;
+  background-color: rgb(238,180,170);
+  color: rgb(238,180,170);
+  position: absolute;
+  left: -10%;
+  bottom: -126%;
+  width: 70%;
+  transform: rotate(5deg);
+  display: block;
+  z-index: 0;
 }

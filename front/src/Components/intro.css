@@ -1,14 +1,15 @@
 .intro {
-  background: url('../Images/plant-right.jpg');
-  background-color: rgb(238,234,231);
-  background-position: bottom;
+  background: url('../Images/plant-right.png');
+  background-color: #48D8A4;
+  background-position: bottom right;
   background-repeat: no-repeat;
   height: 110vh;
-  background-size: 100%;
+  background-size: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
+  box-sizing: border-box;
 }
 
 .text-box {
@@ -20,18 +21,18 @@
 #hello {
   font-family: 'Open Sans', Sans-Serif;
   font-size: 30px;
-  color: #726E5F;
+  color: #FFFFFF;
 }
 
 #carolyn {
   font-family: 'Work Sans', Sans-Serif;
   font-size: 70px;
   font-weight: 700;
-  color: rgb(180,105,82);
+  color: #FFFFFF;
 }
 
 #gregoris {
-  color: #726E5F;
+  color: #FFFFFF;
   font-weight: 500;
 }
 
@@ -39,18 +40,18 @@
   font-family: 'Open Sans', Sans-Serif;
   font-size: 30px;
   font-weight: 700;
-  color: rgb(180,105,82);
+  color: #FFFFFF;
 }
 
 #intro-p {
   font-family: 'Open Sans', Sans-Serif;
   font-size: 30px;
-  color: #726E5F;
+  color: #FFFFFF;
 }
 
 
 .fa-angle-double-down:hover {
-  color: rgb(150, 147, 139);
+  color: #FFFFFF;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
 }
@@ -59,7 +60,7 @@
   font-size: 50px;
   align-self: center;
   margin: 50px;
-  color: #726E5F;
+  color: rgba(58,95,237, 0.8);
   cursor: pointer;
   /* -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite; */
@@ -67,8 +68,6 @@
   transition: all 0.3s;
   
 }
-
-
 
 .socialsResume {
   display: flex;
@@ -79,19 +78,19 @@
 
 .resumeLink {
   text-decoration: none;
-  background-color: rgb(238,234,231);
-  color: #726E5F;
+  background-color: #FFFFFF;
+  color: rgba(58,95,237, 0.8);
   padding: 8px 25px;
   border-radius: 40px;
-  border: solid #726E5F;
+  /* border: solid rgba(58,95,237, 0.8); */
+  font-weight: 700;
 }
 
 .resumeLink:hover {
-  background-color: #726E5F;
-  color: rgb(238,234,231);
-  
-  border: solid #726E5F;
+  background-color: rgba(58,95,237, 0.8);
+  color: #FFFFFF;
   border-radius: 40px;
+  transition: all 0.3s;
 }
 
 .socialsList {
@@ -106,11 +105,22 @@
 }
 
 .fa-github {
-  color: #726E5F;
+  color: #FFFFFF;
 }
 
 .fa-linkedin {
-  color: #726E5F;
+  color: #FFFFFF;
+}
+
+.angle-1 {
+  height: 200px;
+  background-color: rgb(246,230,224);
+  color: rgb(246,230,224);
+  position: absolute;
+  bottom: -20%;
+  width: 105%;
+  transform: rotate(5deg);
+  display: block;
 }
 
 
