@@ -3,6 +3,9 @@
   flex-direction: row;
   align-items: center;
   position: fixed;
+  background-color: rgba(238,234,231, 0.7);
+  width: 100%;
+  z-index: 2;
 }
 
 .logo {
@@ -10,7 +13,7 @@
   Font-Family: 'Work Sans', Sans-Serif;
   Font-Size: 45px;
   font-weight: 600;
-  color: rgb(37,45,38)
+  color: #46443e;
 }
 
 .logo:hover {

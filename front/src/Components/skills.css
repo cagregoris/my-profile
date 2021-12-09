@@ -1,0 +1,8 @@
+.skills {
+  background: url('../Images/left-cropped.png');
+  background-color: rgb(231,231,227);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  height: 110vh;
+  background-size: 15%;
+}

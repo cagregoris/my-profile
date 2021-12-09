@@ -1,16 +1,20 @@
 .intro {
   background: url('../Images/plant-right.jpg');
-  height: 100vh;
+  background-color: rgb(238,234,231);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 110vh;
   background-size: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .text-box {
   display: flex;
   flex-direction: column;
-  margin-left: 300px;
-  width: 550px;
+  width: 600px;
 }
 
 #hello {
@@ -26,6 +30,11 @@
   color: rgb(180,105,82);
 }
 
+#gregoris {
+  color: #726E5F;
+  font-weight: 500;
+}
+
 #developer {
   font-family: 'Open Sans', Sans-Serif;
   font-size: 30px;
@@ -39,10 +48,98 @@
   color: #726E5F;
 }
 
+
+.fa-angle-double-down:hover {
+  color: rgb(150, 147, 139);
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
 .fa-angle-double-down {
   font-size: 50px;
   align-self: center;
   margin: 50px;
   color: #726E5F;
   cursor: pointer;
+  /* -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite; */
+  -webkit-transition: color 0.1s;
+  transition: all 0.3s;
+  
+}
+
+
+
+.socialsResume {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 25px;
+}
+
+.resumeLink {
+  text-decoration: none;
+  background-color: rgb(238,234,231);
+  color: #726E5F;
+  padding: 8px 25px;
+  border-radius: 40px;
+  border: solid #726E5F;
+}
+
+.resumeLink:hover {
+  background-color: #726E5F;
+  color: rgb(238,234,231);
+  
+  border: solid #726E5F;
+  border-radius: 40px;
+}
+
+.socialsList {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  font-size: 40px;
+}
+
+.socialsList li {
+  padding: 20px;
+}
+
+.fa-github {
+  color: #726E5F;
+}
+
+.fa-linkedin {
+  color: #726E5F;
+}
+
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
 }
