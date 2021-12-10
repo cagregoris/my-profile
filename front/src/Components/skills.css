@@ -18,6 +18,8 @@
   color: rgb(28,34,115);
   padding-top: 150px;
   z-index: 2;
+  align-self: flex-start;
+  padding-left: 15%;
 }
 
 .skills-container {
@@ -97,4 +99,12 @@
   transform: rotate(5deg);
   display: block;
   z-index: 0;
+}
+
+.section-subtitle {
+  font-size: 28px;
+  color: white;
+  padding-top: 10px;
+  align-self: flex-start;  
+  padding-left: 15%;
 }

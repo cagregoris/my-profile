@@ -10,7 +10,11 @@ function Skills() {
       <div className="angle-3"><span>angle 3</span></div>
 
       <div className="section-header">
-        <span>My Toolkit</span>
+        <span>Skills and Tools</span>
+      </div>
+
+      <div className="section-subtitle">
+        <span>The skills, tools and technologies I use to bring products to life...</span>
       </div>
 
       <div className="skills-container">

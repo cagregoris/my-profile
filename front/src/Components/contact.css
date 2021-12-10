@@ -4,3 +4,33 @@
   box-sizing: border-box;
   overflow-x: hidden;
 }
+
+.contact-container {
+  display: flex;
+  align-items: center;
+}
+
+.flower-5 {
+  height: 75%;
+  transform: rotate(20deg);
+  position: absolute;
+  bottom: -430%;
+}
+
+.cactus {
+  height: 30%;
+  position: absolute;
+  bottom: -430%;
+  right: -1%;
+}
+
+.contact-intro {
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-intro span {
+  width: 60%;
+}

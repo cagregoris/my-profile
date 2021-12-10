@@ -13,7 +13,7 @@ function Projects() {
           <span>Projects</span>
         </div>
         <div className="projects-subtitle">
-        &nbsp;&nbsp;&nbsp;&nbsp;<span> Some stuff that I've built..</span>
+        <span> Some stuff that I've built..</span>
         </div>
       </div>
 
