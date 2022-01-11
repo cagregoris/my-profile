@@ -3,12 +3,23 @@
   background-color: rgb(238,180,170);
   background-repeat: no-repeat;
   background-position: bottom left;
-  height: 115vh;
+  /* height: 125vh; */
   background-size: 22%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 300px;
+  -ms-transform: skewY(-2deg);
+  -webkit-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+  position: relative;
+  top: -160px;
+}
+
+.skills-contents {
+  -ms-transform: skewY(2deg);
+  -webkit-transform: skewY(2deg);
+  transform: skewY(2deg);
 }
 
 .section-header {
@@ -73,32 +84,6 @@
 
 .fa-php {
   color: #FFFFFF;
-}
-
-.angle-2 {
-  height: 180px;
-  background-color: rgb(238,180,170);
-  color: rgb(238,180,170);
-  position: absolute;
-  bottom: -128%;
-  width: 70%;
-  right: -10%;
-  transform: rotate(-5deg);
-  display: block;
-  z-index: 0;
-}
-
-.angle-3 {
-  height: 150px;
-  background-color: rgb(238,180,170);
-  color: rgb(238,180,170);
-  position: absolute;
-  left: -10%;
-  bottom: -126%;
-  width: 70%;
-  transform: rotate(5deg);
-  display: block;
-  z-index: 0;
 }
 
 .section-subtitle {

@@ -1,15 +1,13 @@
 import React from 'react'
 
 import flower5 from '../Images/flower5.svg'
-import cactus from '../Images/cactus.svg'
 
 import './contact.css'
 
 function Contact() {
   return (
     <section className="contact" id="contact">
-      <img className="flower-5" src={flower5} />
-      <img className="cactus" src={cactus} />
+      {/* <img className="flower-5" src={flower5} /> */}
       <div className="contact-container">
         <div className="contact-intro">
           <h3>Let's Connect</h3>

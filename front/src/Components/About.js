@@ -1,6 +1,5 @@
 import React from 'react'
 import picture from '../Images/profile.png'
-import flower from '../Images/aboutFlower.svg'
 import flower2 from '../Images/aboutFlower2.svg'
 
 import './about.css'
@@ -9,12 +8,14 @@ function About() {
   return (
     <section className="about" id="about">
 
-      <img className="flower" src={flower} />
-      <img className="flower-2" src={flower2} />
-
       <div className="about-me">
         <span>About Me</span>
       </div>
+      
+      <div className="about-contents">
+        
+      <img className="flower-2" src={flower2} />
+
 
       <div className="row">
         <div className="about-pic-pic">
@@ -41,6 +42,9 @@ function About() {
           </div>
         </div>
       </div>
+
+      </div>
+
 
       
       

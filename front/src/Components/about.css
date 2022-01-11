@@ -1,5 +1,5 @@
 .about {
-  height: 110vh;
+  height: 120vh;
   background-size: 100%;
   background-color: rgb(246,230,224);
   display: flex;
@@ -9,8 +9,19 @@
   font-family: 'Open Sans', Sans-Serif;
   font-size: 20px;
   color: black;
-  width: 100%;
-  box-sizing: border-box;
+  /* width: 100%; */
+  /* box-sizing: border-box; */
+  -ms-transform: skewY(3deg);
+  -webkit-transform: skewY(3deg);
+  transform: skewY(3deg);
+  position: relative;
+  top: -60px;
+}
+
+.about-contents {
+  -ms-transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  transform: skewY(-3deg);
 }
 
 .row {
@@ -26,6 +37,9 @@
   padding-bottom: 70px;
   z-index: 0;
   color: rgb(28,34,115);
+  -ms-transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  transform: skewY(-3deg);
 }
 
 .about-pic {
@@ -69,21 +83,12 @@
   color: rgb(128,145,216);
 }
 
-.flower {
-  height: 150%;
-  top: 120%;
-  position: absolute;
-  transform: rotate(-8deg);
-  right: 120px;
-  z-index: 1;
-}
-
 .flower-2 {
-  height: 110%;
-  top: 70%;
+  height: 300%;
+  top: -180%;
   position: absolute;
-  transform: scaleX(-1) rotate(-12deg);
-  left: -100px;
+  transform: scaleX(-1) rotate(-27deg);
+  left: -35%;
 }
 
 .orange {

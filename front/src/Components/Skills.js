@@ -6,8 +6,8 @@ function Skills() {
   return (
     <section className="skills" id="skills">
 
-      <div className="angle-2"><span>angle 2</span></div>
-      <div className="angle-3"><span>angle 3</span></div>
+    <div className="skills-contents">
+
 
       <div className="section-header">
         <span>Skills and Tools</span>
@@ -105,6 +105,8 @@ function Skills() {
           </li>
         </ul>
       </div>
+    </div>
+
       
     </section>
   )
