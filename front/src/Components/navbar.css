@@ -5,6 +5,7 @@
   position: fixed;
   /* background-color: rgba(58,95,237, 0.8); */
   background-color: #caebf2;
+  opacity: 0.9;
   width: 100%;
   z-index: 3;
 }
