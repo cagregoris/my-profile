@@ -51,7 +51,7 @@ function Skills() {
           </li>
           <li>
             <div className="item-container">
-              <i class="fab fa-github"></i>
+              <i id="skills-git" class="fab fa-github"></i>
               <p>Github</p>
             </div>
           </li>

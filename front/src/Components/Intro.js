@@ -44,7 +44,6 @@ function Intro() {
       </div>
         <Link to="about" spy={true} smooth={true}><i class="fas fa-angle-double-down"></i></Link>
       </div>
-      {/* <div className="angle-1"><span>ANGLE</span></div> */}
     </div>
   )
 }

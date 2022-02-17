@@ -3,7 +3,8 @@
   flex-direction: row;
   align-items: center;
   position: fixed;
-  background-color: rgba(58,95,237, 0.8);
+  /* background-color: rgba(58,95,237, 0.8); */
+  background-color: #caebf2;
   width: 100%;
   z-index: 3;
 }
@@ -13,16 +14,15 @@
   Font-Family: 'Work Sans', Sans-Serif;
   Font-Size: 45px;
   font-weight: 600;
-  color: #FFFFFF;
+  /* color: #FFFFFF; */
+  color: #a9a9a9;
 }
 
 .logo:hover {
-  color: #EEB4AA;
   cursor: pointer;
 }
 
 .nav-links li:hover {
-  color: #EEB4AA;
   cursor: pointer;
 }
 
@@ -31,10 +31,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  Font-Family: 'Open Sans', Sans-Serif;
-  Font-Size: 17px;
+  /* Font-Family: 'Open Sans', Sans-Serif; */
+  font-family: 'Courgette', cursive;
+  Font-Size: 22px;
   width: 500px;
-  color: #FFFFFF;
+  color: #525151;
 }
 
 .mobile-menu-icon {
@@ -43,12 +44,9 @@
 
 @media screen and (max-width: 780px) {
 
-  /* .logo {
-    display: none;
-  } */
-
   .nav {
-    background-color: rgba(58,95,237, 0.95);
+    /* background-color: rgba(58,95,237, 0.95); */
+    background-color: #eddcd9;
   }
 
   .logo {

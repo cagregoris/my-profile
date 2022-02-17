@@ -1,7 +1,8 @@
 .about {
   height: 120vh;
   background-size: 100%;
-  background-color: rgb(246,230,224);
+  /* background-color: rgb(246,230,224); */
+  background-color: #ffff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,8 +10,6 @@
   font-family: 'Open Sans', Sans-Serif;
   font-size: 20px;
   color: black;
-  /* width: 100%; */
-  /* box-sizing: border-box; */
   -ms-transform: skewY(3deg);
   -webkit-transform: skewY(3deg);
   transform: skewY(3deg);
@@ -26,17 +25,15 @@
 
 .row {
   display: flex;
-  /* background-color: aqua; */
-
 }
 
 .about-me {
-  font-family: 'Work Sans', Sans-Serif;
+  font-family: 'Courgette', cursive;
   font-size: 70px;
   font-weight: 700;
   padding-bottom: 70px;
   z-index: 0;
-  color: rgb(28,34,115);
+  color: #525151;
   -ms-transform: skewY(-3deg);
   -webkit-transform: skewY(-3deg);
   transform: skewY(-3deg);
@@ -46,7 +43,7 @@
   height: 400px;
   width: 400px;
   position: relative;
-  border: 5px solid white;
+  border: 5px solid #caebf2;
   border-radius: 200px;
   margin: 20px;
 }
@@ -54,7 +51,7 @@
   height: 400px;
   width: 400px;
   position: relative;
-  border: 5px solid white;
+  border: 5px solid #caebf2;
   border-radius: 200px;
   margin: 30px;
 }
@@ -80,18 +77,18 @@
 
 #hello-again {
   font-weight: 700;
-  color: rgb(128,145,216);
+  color: #525151;
 }
 
 .flower-2 {
-  height: 300%;
-  top: -180%;
+  height: 200%;
+  top: -210%;
   position: absolute;
   transform: scaleX(-1) rotate(-27deg);
-  left: -35%;
+  left: -20%;
 }
 
 .orange {
   font-weight: 700;
-  color: rgb(128,145,216);
+  color: #525151;
 }

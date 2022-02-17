@@ -1,5 +1,5 @@
 .contact {
-  background-color: rgb(254,242,216);
+  background-color: #efefef;
   box-sizing: border-box;
   overflow-x: hidden;
   position: relative;
@@ -11,13 +11,6 @@
   display: flex;
   align-items: center;
 }
-
-/* .cactus {
-  height: 30%;
-  position: absolute;
-  bottom: -430%;
-  right: -1%;
-} */
 
 .contact-intro {
   padding: 10%;

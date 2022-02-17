@@ -1,6 +1,7 @@
 .intro {
-  background: url('../Images/plant-right.png');
-  background-color: #48D8A4;
+  /* background-color: #48D8A4; */
+  /* background-color: #f2ebe9; */
+  background-color: #efefef;
   background-position: bottom right;
   background-repeat: no-repeat;
   height: 110vh;
@@ -21,18 +22,19 @@
 #hello {
   font-family: 'Open Sans', Sans-Serif;
   font-size: 30px;
-  color: #FFFFFF;
+  color: #a9a9a9;
 }
 
 #carolyn {
-  font-family: 'Work Sans', Sans-Serif;
-  font-size: 70px;
+  /* font-family: 'Work Sans', Sans-Serif; */
+  font-family: 'Courgette', cursive;
+  font-size: 80px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #525151;
 }
 
 #gregoris {
-  color: #FFFFFF;
+  color: #525151;
   font-weight: 500;
 }
 
@@ -40,13 +42,13 @@
   font-family: 'Open Sans', Sans-Serif;
   font-size: 30px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #525151;
 }
 
 #intro-p {
   font-family: 'Open Sans', Sans-Serif;
   font-size: 30px;
-  color: #FFFFFF;
+  color: #525151;
 }
 
 
@@ -60,7 +62,8 @@
   font-size: 50px;
   align-self: center;
   margin: 50px;
-  color: rgba(58,95,237, 0.8);
+  /* color: rgba(58,95,237, 0.8); */
+  color: #ff3b3f;
   cursor: pointer;
   /* -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite; */
@@ -78,17 +81,18 @@
 
 .resumeLink {
   text-decoration: none;
-  background-color: #FFFFFF;
-  color: rgba(58,95,237, 0.8);
+  /* background-color: #FFFFFF; */
+  /* color: rgba(58,95,237, 0.8); */
+  background-color: #caebf2;
+  color: #a9a9a9;
   padding: 8px 25px;
   border-radius: 40px;
-  /* border: solid rgba(58,95,237, 0.8); */
   font-weight: 700;
 }
 
 .resumeLink:hover {
-  background-color: rgba(58,95,237, 0.8);
-  color: #FFFFFF;
+  background-color: white;
+  color: #caebf2;
   border-radius: 40px;
   transition: all 0.3s;
 }
@@ -105,11 +109,11 @@
 }
 
 .fa-github {
-  color: #FFFFFF;
+  color: #a9a9a9;
 }
 
 .fa-linkedin {
-  color: #FFFFFF;
+  color: #a9a9a9;
 }
 
 .angle-1 {

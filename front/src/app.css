@@ -3,7 +3,8 @@ html, body {
   -webkit-text-size-adjust: 100%;
   display: block;
   box-sizing: border-box;
-  background-color: rgb(254,242,216);
+  /* background-color: rgb(254,242,216); */
+  background-color: #caebf2;
 }
 
 * {
