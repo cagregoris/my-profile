@@ -76,20 +76,22 @@
     list-style: none;
     background-color: rgba(58,95,237, 0.95);
     left: 0;
-    top: 50px;
+    top: 75px;
     transition: all 0.5s ease-out;
     width: 100%;
     Font-Family: 'Open Sans', Sans-Serif;
     Font-Size: 25px;
+    margin: 0px;
   }
 
   .nav-links-mobile li {
     text-align: center;
     color: #FFFFFF;
-    padding: 32px;
+    padding: 30px;
     width: 100%;
     transition: all 0.5 ease;
     text-decoration: none;
+    margin: 0px;
   }
 
   .mobile-menu-icon {
@@ -102,6 +104,8 @@
     font-size: 35px;
     background: none;
     border: none;
+    margin: 0px;
+    padding-bottom: 0px;
   }
   
 }

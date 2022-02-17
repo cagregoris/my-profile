@@ -36,10 +36,6 @@ function About() {
           <div>
           <span>I am happiest when I am using my passion to help others pursue theirs, and  <span className="orange">I can't wait to work alonside other amazing programmers and learn so much more!</span></span>
           </div>
-          <br></br>
-          <div>
-          <span>If you want to learn more about me and what I love to do when I'm not coding, <a className="orange">click here!</a></span>
-          </div>
         </div>
       </div>
 

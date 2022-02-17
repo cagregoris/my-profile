@@ -9,7 +9,7 @@ import {Link} from 'react-scroll';
 function Intro() {
 
 
-  const placeholderText = ["plant mom 🌿", "book worm 📚", "dog mom 🐶", "baker 🍰", "hiker ⛰", "and tennis player 🎾"];
+  const placeholderText = ["plant mom 🌿", "book worm 📚", "dog mom 🐶", "baker 🍰", "hiker ⛰", "tennis player 🎾"];
 
   const [state, setState] = useState(0);
 
