@@ -11,6 +11,8 @@ import pbMobile from '../Images/plant-buddy-mobile.png';
 import pbDesktop from '../Images/plant-buddy-desktop.png';
 import cDesktop from '../Images/covid-cases-desktop.png';
 import cMobile from '../Images/covid-cases-mobile.png';
+import dfDesktop from '../Images/dog-finder-desktop.png';
+import dfMobile from '../Images/dog-finder-mobile.png';
 
 function Projects() {
   return (
@@ -136,6 +138,34 @@ function Projects() {
           <img style={{width: "500px"}} src={cDesktop} />
           </div>
           <img style={{height: "200px"}} src={cMobile} />
+        </div>
+      </div>
+
+      <div className="projects-containter">
+        <div className="container-img">
+          <div>
+          <img style={{width: "500px"}} src={dfDesktop} />
+          </div>
+          <img style={{height: "200px"}} src={dfMobile} />
+        </div>
+        <div className="container-text">
+          <h3>PROJECT 1</h3>
+          <p>Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project</p>
+          <div className="container-icons-mini">
+            <div className="box-icon">
+              <a>icon</a>
+            </div>
+            <div className="box-icon">
+              <a>icon</a>
+            </div>
+            <div className="box-icon">
+              <a>icon</a>
+            </div>
+          </div>
+          <div className="container-projects-btns">
+            <a>Live</a>
+            <a>Repo</a>
+          </div>
         </div>
       </div>
 
