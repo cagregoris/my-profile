@@ -57,13 +57,9 @@
 }
 
 #image {
-  /* height: 500px;
-  padding-right: 70px;
-  opacity: .9; */
   width: 100%;
   height: 100%;
   position: absolute;
-  /* top: -50px; */
   left: -50px;
   z-index: 1;
 }
@@ -80,15 +76,119 @@
   color: #525151;
 }
 
-.flower-2 {
-  height: 200%;
-  top: -210%;
-  position: absolute;
-  transform: scaleX(-1) rotate(-27deg);
-  left: -20%;
-}
-
 .orange {
   font-weight: 700;
   color: #525151;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 760px) {
+  .about {
+    min-height: 100vh;
+    height: 1000px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .about-me {
+    font-size: 50px;
+    padding-bottom: 0;
+    margin-top: 30px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .about-pic {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border: 4px solid #caebf2;
+    border-radius: 200px;
+    margin: 10px;
+    align-self: center;
+  }
+  .about-pic-pic {
+    align-self: center;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border: 3px solid #caebf2;
+    border-radius: 200px;
+    margin: 20px;
+  }
+
+  #image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -20px;
+    z-index: 1;
+  }
+
+  .about-text {
+    width: 90%;
+    padding-bottom: 50px;
+    align-self: center;
+    z-index: 2;
+    font-family: 'Open Sans', Sans-Serif;
+    font-weight: 300;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 761px) and (max-width: 1024px) {
+  .about {
+    min-height: 90vh;
+    height: 1000px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .about-me {
+    font-size: 50px;
+    padding-bottom: 0;
+    margin-top: 30px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .about-pic {
+    height: 350px;
+    width: 350px;
+    position: relative;
+    border: 4px solid #caebf2;
+    border-radius: 200px;
+    margin: 10px;
+    align-self: center;
+  }
+  .about-pic-pic {
+    align-self: center;
+    height: 350px;
+    width: 350px;
+    position: relative;
+    border: 3px solid #caebf2;
+    border-radius: 200px;
+    margin: 20px;
+  }
+
+  #image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -20px;
+    z-index: 1;
+  }
+
+  .about-text {
+    width: 90%;
+    padding-bottom: 50px;
+    align-self: center;
+    z-index: 2;
+    font-family: 'Open Sans', Sans-Serif;
+    font-weight: 300;
+    font-size: 20px;
+  }
 }

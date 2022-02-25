@@ -13,9 +13,6 @@ function About() {
       </div>
       
       <div className="about-contents">
-        
-      <img className="flower-2" src={flower2} />
-
 
       <div className="row">
         <div className="about-pic-pic">

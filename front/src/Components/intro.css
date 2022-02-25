@@ -4,7 +4,7 @@
   background-color: #efefef;
   background-position: bottom right;
   background-repeat: no-repeat;
-  height: 110vh;
+  min-height: 100vh;
   background-size: 20%;
   display: flex;
   align-items: center;
@@ -158,7 +158,7 @@
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 250px) and (max-width: 1024px) {
   .intro {
     padding-top: 100px;
     background-image: none;
@@ -170,8 +170,9 @@
   }
 
   #carolyn {
-    font-size: 50px;
+    font-size: 45px;
     padding-left: 20px;
+    padding-right: 10px;
   }
 
   #intro-p {
@@ -181,6 +182,17 @@
 
   #developer {
     font-size: 20px;
+  }
+
+  .socialsResume {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .fa-angle-double-down {
+    margin-bottom: 70px;
+    margin-top: 10px;
+    display: none;
   }
 
 }
