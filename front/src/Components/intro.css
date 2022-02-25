@@ -160,7 +160,9 @@
 
 @media only screen and (min-width: 250px) and (max-width: 1024px) {
   .intro {
-    padding-top: 100px;
+    min-height: fit-content;
+    padding-top: 140px;
+    padding-bottom: 90px;
     background-image: none;
   }
 
