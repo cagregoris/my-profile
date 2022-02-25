@@ -1,0 +1,136 @@
+.container-form {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-form h1 {
+  font-family: 'Courgette', cursive;
+  font-size: 80px;
+  font-weight: 700;
+  color: #525151;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+#cf-span {
+  color: #707070;
+  margin-bottom: 40px;
+  font-size: 20px;
+  width: 600px;
+  text-align: left;
+  font-family: 'Open Sans', Sans-Serif;
+  font-weight: 400;
+}
+
+form {
+  width: 90%;
+  max-width: 600px;
+}
+
+.field {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: none;
+  color: #707070;
+  background: transparent;
+  font-size: 15px;
+  background-color: #caebf2;
+  box-shadow: 2px 2px #ff3b3f;
+  font-family: 'Open Sans', Sans-Serif;
+}
+
+label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: #707070;
+  cursor: text;
+  transition: 0.2s;
+  font-family: 'Open Sans', Sans-Serif;
+  font-weight: 500;
+}
+
+.send-btn {
+  padding: 15px 30px;
+  background-color: #ff3b3f;
+  font-family: 'Courgette', cursive;
+  color: #efefef;
+  font-weight: 600;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+  top: -35px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.submit-message {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Courgette', cursive;
+  font-size: 80px;
+  font-weight: 700;
+  /* color: #ff3b3f;
+  text-shadow: #a9a9a9 2px 2px; */
+  color: #ff3b3f;
+  text-shadow: #525151 2px 2px;
+  text-align: center;
+  max-width: 95%;
+  margin: auto;
+}
+
+.required {
+  color: #ff3b3f;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 800px) {
+
+  .submit-message {
+    font-size: 50px;
+  }
+
+  .container-form h1 {
+    font-size: 50px;
+  }
+
+  #cf-span {
+    width: 90%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .send-btn {
+    padding: 15px 15px;
+    background-color: #ff3b3f;
+    font-family: 'Courgette', cursive;
+    color: #efefef;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+  }
+
+}

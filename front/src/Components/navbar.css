@@ -47,7 +47,7 @@
 
   .nav {
     /* background-color: rgba(58,95,237, 0.95); */
-    background-color: #eddcd9;
+    background-color: #caebf2;
   }
 
   .logo {
@@ -73,7 +73,7 @@
     position: absolute;
     display: block;
     list-style: none;
-    background-color: rgba(58,95,237, 0.95);
+    background-color: #caebf2;
     left: 0;
     top: 75px;
     transition: all 0.5s ease-out;
@@ -85,7 +85,9 @@
 
   .nav-links-mobile li {
     text-align: center;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
+    color: #5f5e5e;
+    font-family: 'Courgette', cursive;
     padding: 30px;
     width: 100%;
     transition: all 0.5 ease;
