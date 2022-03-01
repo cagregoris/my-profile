@@ -9,6 +9,22 @@
   transform: skewY(-2deg);
   position: relative;
   top: -160px;
+  overflow: hidden;
+}
+
+.skills-flower {
+  position: absolute;
+  height: 700px;
+  transform: rotate(15deg);
+  left: -90%;
+  top: 58%;
+}
+
+.skills-flower-2 {
+  position: absolute;
+  transform: rotate(210deg);
+  top: -60%;
+  right: -125%;
 }
 
 .skills-contents {
@@ -177,4 +193,42 @@
     margin: auto;
   }
 
+}
+
+@media only screen and (min-width: 250px) and (max-width: 760px) {
+  .skills-flower {
+    display: none;
+  }
+
+  .skills-flower-2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 761px) and (max-width: 915px) {
+  .skills-flower-2 {
+    position: absolute;
+    height: 800px;
+    transform: rotate(210deg);
+    top: -50%;
+    right: -60%;
+  }
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1290px) {
+  .skills-flower {
+    position: absolute;
+    height: 700px;
+    transform: rotate(15deg);
+    left: -65%;
+    top: 58%;
+  }
+
+  .skills-flower-2 {
+    position: absolute;
+    height: 800px;
+    transform: rotate(210deg);
+    top: -40%;
+    right: -60%;
+  }
 }

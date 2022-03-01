@@ -1,7 +1,5 @@
 import React from 'react'
 import picture from '../Images/profile.png'
-import flower2 from '../Images/aboutFlower2.svg'
-
 import './about.css'
 
 function About() {

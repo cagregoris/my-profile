@@ -1,12 +1,17 @@
-import React from 'react'
+import React from 'react';
+import './skills.css';
 
-import './skills.css'
+import flower from '../Images/flower3.png';
+import flower4 from '../Images/flower4.png'
 
 function Skills() {
   return (
     <section className="skills" id="skills">
 
+
     <div className="skills-contents">
+      <img className='skills-flower' src={flower} />
+      <img className='skills-flower-2' src={flower4} />
 
 
       <div className="section-header">

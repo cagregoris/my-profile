@@ -1,10 +1,10 @@
-import React, {useState, useEffect} from 'react'
-
-import './intro.css'
-
-import resume from '../documents/Resume.pdf'
-
+import React, {useState, useEffect} from 'react';
+import './intro.css';
+import resume from '../documents/Resume.pdf';
 import {Link} from 'react-scroll';
+
+import flower from '../Images/flower1.png';
+import roundFlower from '../Images/flower2.png';
 
 function Intro() {
 
@@ -24,6 +24,8 @@ function Intro() {
 
   return (
     <div className="intro" id="/">
+        <img className='intro-small-flower' src={roundFlower} />
+        <img className='intro-flower' src={flower} />
       <div className="text-box">
         <span id="hello">Hello! I'm</span>
         <br></br>

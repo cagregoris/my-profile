@@ -50,6 +50,10 @@
   color: #ff3b3f;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container-icons-mini {
   display: flex;
   padding-top: 10px;
@@ -57,10 +61,11 @@
 }
 
 .box-icon {
-  margin-right: 20px;
-  padding: 5px;
+  margin-right: 10px;
+  padding: 3px;
   margin-bottom: 20px;
   background-color: #FFFFFF;
+  font-size: 22px;
 }
 
 .container-projects-btns a{
