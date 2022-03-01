@@ -30,9 +30,9 @@ function Projects() {
       <div className="projects-containter">
         <div className="container-img">
           <div>
-            <img style={{width: "500px"}} src={mrDesktop} />
+            <img className="dt-img" src={mrDesktop} />
           </div>
-          <img style={{height: "200px"}} src={mrMobile} />
+          <img className='mobile-img' src={mrMobile} />
         </div>
         <div className="container-text">
           <h3>PROJECT 1</h3>
@@ -56,41 +56,12 @@ function Projects() {
         </div>
       </div>
       
-      <div className="projects-containter">
-        <div className="container-text">
-          <h3>PROJECT 1</h3>
-          <p>Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project</p>
-          <div className="container-icons-mini">
-            <div className="box-icon">
-              <a>icon</a>
-            </div>
-            <div className="box-icon">
-              <a>icon</a>
-            </div>
-            <div className="box-icon">
-              <a>icon</a>
-            </div>
-          </div>
-          <div className="container-projects-btns">
-            <a>Live</a>
-            <a>Repo</a>
-          </div>
-        </div>
+      <div className="projects-containter even">
         <div className="container-img">
           <div>
-          <img style={{width: "500px"}} src={mp} />
+          <img className="dt-img" src={mp} />
           </div>
-          <img style={{height: "200px"}} src={mpMobile} />
-        </div>
-      </div>
-
-
-      <div className="projects-containter">
-        <div className="container-img">
-          <div>
-          <img style={{width: "500px"}} src={pbDesktop} />
-          </div>
-          <img style={{height: "200px"}} src={pbMobile} />
+          <img className='mobile-img' src={mpMobile} />
         </div>
         <div className="container-text">
           <h3>PROJECT 1</h3>
@@ -113,7 +84,14 @@ function Projects() {
         </div>
       </div>
 
+
       <div className="projects-containter">
+        <div className="container-img">
+          <div>
+          <img className="dt-img" src={pbDesktop} />
+          </div>
+          <img className='mobile-img' src={pbMobile} />
+        </div>
         <div className="container-text">
           <h3>PROJECT 1</h3>
           <p>Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project</p>
@@ -133,20 +111,42 @@ function Projects() {
             <a>Repo</a>
           </div>
         </div>
+      </div>
+
+      <div className="projects-containter even">
         <div className="container-img">
           <div>
-          <img style={{width: "500px"}} src={cDesktop} />
+          <img className="dt-img" src={cDesktop} />
           </div>
-          <img style={{height: "200px"}} src={cMobile} />
+          <img className='mobile-img' src={cMobile} />
+        </div>
+        <div className="container-text">
+          <h3>PROJECT 1</h3>
+          <p>Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project</p>
+          <div className="container-icons-mini">
+            <div className="box-icon">
+              <a>icon</a>
+            </div>
+            <div className="box-icon">
+              <a>icon</a>
+            </div>
+            <div className="box-icon">
+              <a>icon</a>
+            </div>
+          </div>
+          <div className="container-projects-btns">
+            <a>Live</a>
+            <a>Repo</a>
+          </div>
         </div>
       </div>
 
       <div className="projects-containter">
         <div className="container-img">
           <div>
-          <img style={{width: "500px"}} src={dfDesktop} />
+          <img className="dt-img" src={dfDesktop} />
           </div>
-          <img style={{height: "200px"}} src={dfMobile} />
+          <img className='mobile-img' src={dfMobile} />
         </div>
         <div className="container-text">
           <h3>PROJECT 1</h3>

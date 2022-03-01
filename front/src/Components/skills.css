@@ -1,8 +1,5 @@
 .skills {
   background-color: #efefef;
-  background-repeat: no-repeat;
-  background-position: bottom left;
-  background-size: 22%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,4 +91,90 @@
   padding-top: 10px;
   align-self: flex-start;  
   padding-left: 15%;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 900px) {
+
+  .skills {
+    padding-bottom: 100px;
+  }
+  
+  .section-header {
+    font-size: 50px;
+    font-weight: 700;
+    color: #525151;
+    padding-top: 150px;
+    z-index: 2;
+    padding-left: 0;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .skills-container {
+    list-style: none;
+    width: 95%;
+  }
+  
+  .skills-container ul{
+    list-style: none;
+    font-size: 55px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    color: #ff3b3f;
+  }
+  
+  .skills-container ul p{
+    font-size: 15px;
+    color: #ff3b3f;
+    margin: 0;
+  }
+  
+  .skills-container ul li{
+    padding: 20px;
+  }
+  
+  .fa-html5 {
+    color: #ff3b3f;
+  }
+  
+  .fa-css3 {
+    color: #ff3b3f;
+  }
+  
+  .fa-sass {
+    color: #ff3b3f;
+  }
+  
+  .fa-js-square {
+    color: #ff3b3f;
+  }
+  
+  .fa-react {
+    color: #ff3b3f;
+  }
+  
+  .fa-wordpress-simple {
+    color: #ff3b3f;
+  }
+  
+  .fa-php {
+    color: #ff3b3f;
+  }
+  
+  #skills-git {
+    color: #ff3b3f;
+  }
+  
+  .section-subtitle {
+    font-size: 23px;
+    color: #a9a9a9;
+    padding-top: 10px;
+    align-self: flex-start;  
+    padding-left: 0;
+    width: 90%;
+    margin: auto;
+  }
+
 }
