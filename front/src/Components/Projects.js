@@ -42,6 +42,9 @@ function Projects() {
               <i class="fab fa-react"></i>
             </div>
             <div className="box-icon">
+              <i class="fab fa-js-square"></i>
+            </div>
+            <div className="box-icon">
               <i class="fab fa-html5"></i>
             </div>
             <div className="box-icon">
@@ -64,21 +67,24 @@ function Projects() {
         </div>
         <div className="container-text">
           <h3>Moon Phase App</h3>
-          <p>Using the Farmsense API, this app shows the phase that the moon is currently in. It was inspired by my love of nature and the night sky. After doing some research</p>
+          <p>Using the Farmsense API, Moon Phase App shows the phase that the moon is currently in. After doing some research, I found the Farmsense API which returns the phase of the moon based on a Unix Timestamp. One of the interesting parts of this project was using javascript to convert the current date and time into Unix time, which the API understands, and then converting it back into a human-readable format to present to the user. I used the images from the Nasa Website, which is allowed if it is for educational purposes. This app was inspired by my love of nature and the night sky.</p>
           <div className="container-icons-mini">
             <div className="box-icon">
-              <a>icon</a>
+              <i style={{color: "#ff3b3f"}} class="devicon-jquery-plain"></i>
             </div>
             <div className="box-icon">
-              <a>icon</a>
+              <i class="fab fa-js-square"></i>
             </div>
             <div className="box-icon">
-              <a>icon</a>
+              <i class="fab fa-html5"></i>
+            </div>
+            <div className="box-icon">
+              <i class="fab fa-css3"></i>
             </div>
           </div>
           <div className="container-projects-btns">
-            <a>Live</a>
-            <a>Repo</a>
+            <a href='http://moon-phases-caro.herokuapp.com/' target='_blank'>Live</a>
+            <a href='https://github.com/cascobie/moon-phase' target='_blank'>Repo</a>
           </div>
         </div>
       </div>
@@ -92,22 +98,25 @@ function Projects() {
           <img className='mobile-img' src={pbMobile} />
         </div>
         <div className="container-text">
-          <h3>PROJECT 1</h3>
-          <p>Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project</p>
+          <h3>Plant Care App</h3>
+          <p>Plant Buddy is a plant care app that has all the information needed to keep your houseplants alive and healthy in a clear, easy-to-read format. Built in React with hooks and functional components, with the help of Firestore. I had been wanting to build an app using Firestore for a while since it allows you to build serverless apps with a database and it was an easy and straightforward way to store and sync all my plant data. It also allowed me to get some practice with non-relational databases.</p>
           <div className="container-icons-mini">
             <div className="box-icon">
-              <a>icon</a>
+              <i class="fab fa-react"></i>
             </div>
             <div className="box-icon">
-              <a>icon</a>
+              <i class="fab fa-js-square"></i>
             </div>
             <div className="box-icon">
-              <a>icon</a>
+              <i class="fab fa-html5"></i>
             </div>
+            <div className="box-icon">
+              <i class="fab fa-css3"></i>
+          </div>
           </div>
           <div className="container-projects-btns">
-            <a>Live</a>
-            <a>Repo</a>
+            <a href='https://plant-buddy-f9d16.web.app/' target='_blank'>Live</a>
+            <a href='https://github.com/cascobie/plant-buddy' target='_blank'>Repo</a>
           </div>
         </div>
       </div>
@@ -120,22 +129,25 @@ function Projects() {
           <img className='mobile-img' src={cMobile} />
         </div>
         <div className="container-text">
-          <h3>PROJECT 1</h3>
-          <p>Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project</p>
+          <h3>Covid Tracker</h3>
+          <p>An app that dynamically returns active Covid cases in each province over the past week. I used the API for the COVID-19 Canada Open Data Working Group dataset. The API allows you to enter a date and will return all information after the date specified. I created a function that dynamically gives the API the date 7 days from today, in the format dd-mm-yyyy.</p>
           <div className="container-icons-mini">
-            <div className="box-icon">
-              <a>icon</a>
+          <div className="box-icon">
+              <i class="fab fa-react"></i>
             </div>
             <div className="box-icon">
-              <a>icon</a>
+              <i class="fab fa-js-square"></i>
             </div>
             <div className="box-icon">
-              <a>icon</a>
+              <i class="fab fa-html5"></i>
+            </div>
+            <div className="box-icon">
+              <i class="fab fa-css3"></i>
             </div>
           </div>
           <div className="container-projects-btns">
-            <a>Live</a>
-            <a>Repo</a>
+            <a href='https://canada-covid-cases.herokuapp.com/' target='_blank'>Live</a>
+            <a href='https://github.com/cascobie/covid-cases' target='_blank'>Repo</a>
           </div>
         </div>
       </div>
@@ -162,7 +174,6 @@ function Projects() {
             </div>
           </div>
           <div className="container-projects-btns">
-            <a>Live</a>
             <a>Repo</a>
           </div>
         </div>
