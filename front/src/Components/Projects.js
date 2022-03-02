@@ -66,7 +66,7 @@ function Projects() {
         </div>
         <div className="container-text">
           <h3>Moon Phase App</h3>
-          <p>Using the Farmsense API, Moon Phase App shows the phase that the moon is currently in. After doing some research, I found the Farmsense API which returns the phase of the moon based on a Unix Timestamp. One of the interesting parts of this project was using javascript to convert the current date and time into Unix time, which the API understands, and then converting it back into a human-readable format to present to the user. I used the images from the Nasa Website, which is allowed if it is for educational purposes. This app was inspired by my love of nature and the night sky.</p>
+          <p>Using the Farmsense API, Moon Phase App shows the phase that the moon is currently in. After doing some research, I found the Farmsense API which returns the phase of the moon based on a Unix Timestamp. One of the interesting parts about building this project was using javascript to convert the current date and time into Unix time, which the API understands, and then converting it back into a human-readable format to present to the user. I used the images from the Nasa Website, which is allowed if it is for educational purposes. This app was inspired by my love of nature and the night sky.</p>
           <div className="container-icons-mini">
             <div className="box-icon">
               <i style={{color: "#ff3b3f"}} class="devicon-jquery-plain"></i>
@@ -129,7 +129,7 @@ function Projects() {
         </div>
         <div className="container-text">
           <h3>Covid Tracker</h3>
-          <p>An app that dynamically returns active Covid cases in each province over the past week. I used the API for the COVID-19 Canada Open Data Working Group dataset. The API allows you to enter a date and will return all information after the date specified. I created a function that dynamically gives the API the date 7 days from today, in the format dd-mm-yyyy.</p>
+          <p>An app that dynamically returns active Covid cases in each province over the past week. I used the API for the COVID-19 Canada Open Data Working Group dataset. The API allows you to enter a date and will return all information after the date specified. I created a function that dynamically returns the date 7 days from today and I passed the  result into the API call, in the format dd-mm-yyyy.</p>
           <div className="container-icons-mini">
           <div className="box-icon">
               <i class="fab fa-react"></i>
