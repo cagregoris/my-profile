@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.86678ddb.chunk.css",
+    "main.js": "/static/js/main.c364cea7.chunk.js",
+    "main.js.map": "/static/js/main.c364cea7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a9dfa2bb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a9dfa2bb.js.map",
+    "static/js/2.4bda9188.chunk.js": "/static/js/2.4bda9188.chunk.js",
+    "static/js/2.4bda9188.chunk.js.map": "/static/js/2.4bda9188.chunk.js.map",
+    "static/js/3.8a1030c6.chunk.js": "/static/js/3.8a1030c6.chunk.js",
+    "static/js/3.8a1030c6.chunk.js.map": "/static/js/3.8a1030c6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.86678ddb.chunk.css.map": "/static/css/main.86678ddb.chunk.css.map",
+    "static/js/2.4bda9188.chunk.js.LICENSE.txt": "/static/js/2.4bda9188.chunk.js.LICENSE.txt",
+    "static/media/Resume.58d241a4.pdf": "/static/media/Resume.58d241a4.pdf",
+    "static/media/art-dt.c93c15da.png": "/static/media/art-dt.c93c15da.png",
+    "static/media/covid-cases-desktop.4efcd3b0.png": "/static/media/covid-cases-desktop.4efcd3b0.png",
+    "static/media/covid-cases-mobile.82e7a376.png": "/static/media/covid-cases-mobile.82e7a376.png",
+    "static/media/flower1.f8ee6948.png": "/static/media/flower1.f8ee6948.png",
+    "static/media/flower2.f6fe855c.png": "/static/media/flower2.f6fe855c.png",
+    "static/media/flower3.8ab19e5c.png": "/static/media/flower3.8ab19e5c.png",
+    "static/media/flower4.0a82ea77.png": "/static/media/flower4.0a82ea77.png",
+    "static/media/flower6.8cbfa158.png": "/static/media/flower6.8cbfa158.png",
+    "static/media/mood-reads-desktop.8969aefc.png": "/static/media/mood-reads-desktop.8969aefc.png",
+    "static/media/mood-reads-mobile.ca86c696.png": "/static/media/mood-reads-mobile.ca86c696.png",
+    "static/media/moon-phase-desktop.8e3cd181.png": "/static/media/moon-phase-desktop.8e3cd181.png",
+    "static/media/moon-phase-mobile.e3c48a52.png": "/static/media/moon-phase-mobile.e3c48a52.png",
+    "static/media/plant-buddy-desktop.2082a7ae.png": "/static/media/plant-buddy-desktop.2082a7ae.png",
+    "static/media/plant-buddy-mobile.e711c2a8.png": "/static/media/plant-buddy-mobile.e711c2a8.png",
+    "static/media/profile.e65ebce8.png": "/static/media/profile.e65ebce8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9dfa2bb.js",
+    "static/js/2.4bda9188.chunk.js",
+    "static/css/main.86678ddb.chunk.css",
+    "static/js/main.c364cea7.chunk.js"
+  ]
+}

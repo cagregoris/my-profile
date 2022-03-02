@@ -82,38 +82,16 @@
   
 }
 
-.socialsResume {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  font-size: 25px;
-}
-
-.resumeLink {
-  text-decoration: none;
-  background-color: #caebf2;
-  color: #a9a9a9;
-  padding: 8px 25px;
-  border-radius: 40px;
-  font-weight: 700;
-}
-
-.resumeLink:hover {
-  background-color: white;
-  color: #caebf2;
-  border-radius: 40px;
-  transition: all 0.3s;
-}
-
 .socialsList {
   text-decoration: none;
   list-style: none;
   display: flex;
   font-size: 40px;
+  padding-left: 0;
 }
 
 .socialsList li {
-  padding: 20px;
+  padding-right: 30px;
 }
 
 .fa-github {
@@ -205,6 +183,10 @@
     margin-bottom: 70px;
     margin-top: 10px;
     display: none;
+  }
+
+  .socialsList li {
+    padding-left: 10px;
   }
 
 }

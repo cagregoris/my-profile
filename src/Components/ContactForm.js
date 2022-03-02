@@ -8,7 +8,7 @@ const ContactForm = ({sendEmail}) => {
   return (
     <div className='container-form'>
       <h1>Get in Touch!</h1>
-      <span id="cf-span">Dropping a line to say hello, or see if we can build something together? Fill in your info in the form below and I look forward to hearing from you!</span>
+      <span id="cf-span">Dropping a line to say hello, ask for my resume, or see if we can build something together? Fill in your info in the form below and I look forward to hearing from you!</span>
       <form onSubmit={sendEmail}>
         <div className='field'> 
           <input type="text" name="from_name" id="name" required="required"/>

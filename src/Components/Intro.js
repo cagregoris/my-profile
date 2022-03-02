@@ -34,7 +34,6 @@ function Intro() {
         <span id="intro-p">A <span id="developer">full-stack web developer</span> and part-time <span>{placeholder}</span> </span>
 
         <div className="socialsResume">
-          <a href={resume} alt="Carolyn Gregoris Resumé" target="_blank" className="resumeLink">Resumé</a>
         <ul className="socialsList">
           <li>
             <a href="https://github.com/cascobie" target="_blank"><i class="fab fa-github"></i></a>
