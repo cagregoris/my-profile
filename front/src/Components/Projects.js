@@ -10,8 +10,7 @@ import pbMobile from '../Images/plant-buddy-mobile.png';
 import pbDesktop from '../Images/plant-buddy-desktop.png';
 import cDesktop from '../Images/covid-cases-desktop.png';
 import cMobile from '../Images/covid-cases-mobile.png';
-import dfDesktop from '../Images/df-desktop.png';
-import dfMobile from '../Images/df-mobile.png';
+import artDesktop from '../Images/art-dt.png';
 
 function Projects() {
   return (
@@ -155,26 +154,37 @@ function Projects() {
       <div className="projects-containter">
         <div className="container-img">
           <div>
-          <img className="dt-img" src={dfDesktop} />
+          <img className="dt-img" src={artDesktop} />
           </div>
-          <img className='mobile-img' src={dfMobile} />
         </div>
         <div className="container-text">
-          <h3>PROJECT 1</h3>
-          <p>Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project Description of project</p>
+          <h3>Mindful Art</h3>
+          <p>Use this painting app to channel your inner Bob Ross and paint while listening to calming nature sounds. I built this app with the PERN stack - PostgreSQL, Express, React, and Nodejs. To access the Canvas, the user has to register for an account. I built it this way to get practice using JSON Web Tokens, which I used to allow the user to stay logged in after a page refresh for a given amount of time. The nature sounds came from Nature Radio - a non-profit organization created to archive and share the natural sounds from the world's national parks and protected areas. This is a destkop-only app.</p>
           <div className="container-icons-mini">
             <div className="box-icon">
-              <a>icon</a>
+              <i class="fab fa-react"></i>
             </div>
             <div className="box-icon">
-              <a>icon</a>
+              <i class="fab fa-js-square"></i>
             </div>
             <div className="box-icon">
-              <a>icon</a>
+              <i style={{color: "#ff3b3f"}} class="devicon-nodejs-plain"></i>
+            </div>
+            <div className="box-icon">
+              <i style={{color: "#ff3b3f"}} class="devicon-express-original"></i>
+            </div>
+            <div className="box-icon">
+              <i style={{color: "#ff3b3f"}} class="devicon-postgresql-plain"></i>
+            </div>
+            <div className="box-icon">
+              <i class="fab fa-html5"></i>
+            </div>
+            <div className="box-icon">
+              <i class="fab fa-css3"></i>
             </div>
           </div>
           <div className="container-projects-btns">
-            <a>Repo</a>
+            <a href='https://github.com/cascobie/canvas-app' target='_blank'>Repo</a>
           </div>
         </div>
       </div>
