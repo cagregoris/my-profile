@@ -16,7 +16,7 @@ function Intro() {
   useEffect(() => {
     setInterval(() => {
       setState((s) => (s + 1));
-    }, 2000);
+    }, 1000);
   }, []);
 
   const placeholder = placeholderText[state % placeholderText.length]
