@@ -129,7 +129,7 @@ function Projects() {
         </div>
         <div className="container-text">
           <h3>Covid Tracker</h3>
-          <p>An app that dynamically returns active Covid cases in each province over the past week. I used the API for the COVID-19 Canada Open Data Working Group dataset. The API allows you to enter a date and will return all information after the date specified. I created a function that dynamically returns the date 7 days from today and I passed the  result into the API call, in the format dd-mm-yyyy.</p>
+          <p>An app that dynamically returns active Covid cases in each province over the past week. I used the API for the COVID-19 Canada Open Data Working Group dataset. The API allows you to enter a date and will return all information after the date specified. I created a function that dynamically returns the date 7 days ago from today and I passed the  result into the API call, in the format dd-mm-yyyy.</p>
           <div className="container-icons-mini">
           <div className="box-icon">
               <i class="fab fa-react"></i>
